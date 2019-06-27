@@ -1,0 +1,11 @@
+print("Please input: ")
+print("exclamation ")
+a = input()
+print("adverb ")
+b = input()
+print("noun")
+c = input()
+print("adjective")
+d = input()
+e = "{0}! he said {1} as he jumped into his convertible {2} and drove off with his {3} wife."
+print(e.format(a,b,c,d))
